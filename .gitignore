@@ -1,0 +1,67 @@
+# IntelliJ/Android Studio module files
+*.iml
+
+# Gradle files
+.gradle/
+*/.gradle/
+
+# Local configuration file (sdk path, etc) - DO NOT TRACK
+/local.properties
+
+# IntelliJ / Android Studio IDE files - DO NOT TRACK
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# macOS specific
+.DS_Store
+
+# Build output folders - DO NOT TRACK
+/build/
+*/build/
+
+# Android Studio captures folder
+/captures/
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Built application files - DO NOT TRACK
+*.apk
+*.aab
+
+# Java class files (often Optional if build folders ignored)
+*.class
+
+# Log Files
+*.log
+
+# Android Studio Navigation editor files
+.navigation/
+
+# Keystore files - CRITICAL: DO NOT TRACK
+*.jks
+*.keystore
+
+# External native build folder generated in Studio.
+.cxx/
+.externalNativeBuild/ # Older version, can keep for compatibility
+
+# Google Services (uncomment if you add the file later and want to ignore it)
+# google-services.json
+
+# KSP/Kapt generated folders (good practice)
+*/build/generated/ksp/
+*/build/generated/kapt/
+
+# Lint results
+*/build/reports/
+
+# Bundle metadata (generated during build)
+.gradle/vcs-1/
+
+# Temp files
+*.tmp
